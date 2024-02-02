@@ -1,22 +1,42 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+} from "../assets";
 
 export const navLinks = [
   {
-    id: "home",
-    title: "Home",
+    id: "inicio",
+    title: "Inicio",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "cursos",
+    title: "Cursos",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "youtube",
+    title: "Youtube",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "contacto",
+    title: "Contacto",
   },
+  {
+    id: "referidos",
+    title: "Referidos",
+  },
+  
 ];
 
 export const features = [
@@ -73,18 +93,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Suscriptores",
+    value: "135K+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Videos",
+    value: "550+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Vistas",
+    value: "8.5M+",
   },
 ];
 
