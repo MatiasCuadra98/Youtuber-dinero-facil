@@ -138,3 +138,16 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.bounce {
+  animation: bounce 0.7s infinite alternate;
+}

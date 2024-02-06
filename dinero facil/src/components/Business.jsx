@@ -2,8 +2,12 @@ import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
 /* eslint-disable react/prop-types */
+
 const FeatureCard = ({ icon, title, content, index }) => (
-  <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
+  <div className={`flex flex-row p-6 rounded-[20px] relative overflow-hidden ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card hover:scale-105 transform transition-transform duration-300`}>
+    {/* Agrega el efecto de luz al borde de la carta */}
+    <div className="absolute inset-0 bg-gradient-to-b from-transparent  to-white opacity-5"></div>
+
     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
       <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
     </div>
